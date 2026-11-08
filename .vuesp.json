@@ -1,0 +1,23 @@
+{
+  "$schema": "https://vuesp.ru/schema/vuesp-project.json",
+  "name": "vuesp.espnow-client",
+  "summary": "ESP-NOW client with a button and temperature events for the Vuesp ESP-NOW hub.",
+  "description": "## Vuesp ESP-NOW Client\n\nESP32-C3 client that sends button and temperature events to a Vuesp ESP-NOW hub using the VLP/1 text protocol. Supports hub commands and periodic heartbeats.",
+  "platforms": [
+    "ESP32-C3"
+  ],
+  "tags": [
+    "esp-now",
+    "client",
+    "esp32-c3",
+    "button",
+    "temperature"
+  ],
+  "createdWith": "vuesp-create@1.0.1",
+  "createdAt": "2026-11-08T21:14:44.783Z",
+  "template": {
+    "source": "local",
+    "ref": "local",
+    "commit": "8ebddcfc6f90135d6b2c1532c29eac0fd293f4ae"
+  }
+}
